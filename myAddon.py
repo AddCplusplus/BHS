@@ -6,6 +6,8 @@ bl_info = {
 
 import bpy
 
+#mkkasdmklasmdl
+
 # Функция удаления всех материалов с выделенных мешей
 def remove_materials(self, context):
     selected_objects = [obj for obj in bpy.context.selected_objects if obj.type == 'MESH']
